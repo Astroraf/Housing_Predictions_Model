@@ -13,15 +13,12 @@ best model prediction to inform future buyers.
 
 # Overview:
 
-- Explore the data with a train set data that involves our target
-- Create visualizations to better understand the interaction of the features we given and decide which are highly correlated
-- Clean our data set for any discrepencies
-- Create new features that we believe will influence our predictions to the highest possible degree
-- Create Polynomial features and dummy variables to see there influence on our model predictions
-- Create a split of our target and the variables that we have created to see how well our model performs
-- Perfecm model test that select the best features that influence our model predictions
-- Perform hypothesis test on several features to make sure that our features influence the price in the way we think they do
-- Grab the best features and perform it on our hold data set to see 
+- Explore the data
+- Create visualization
+- Clean our data
+- Create new features
+- Perfecm model test
+- Grab the best features 
 
 # Eploration:
 
@@ -39,32 +36,39 @@ corrected for when we clean up our data, create new features and pick what featu
 
 # Features
 
-* id - unique ID for a house
-* date - Date day house was sold
-* price - Price is prediction target
-* bedrooms - Number of bedrooms
-* bathrooms - Number of bathrooms
-* sqft_living - square footage of the home
-* sqft_lot - square footage of the lot
-* floors - Total floors (levels) in house
-* waterfront - Whether house has a view to a waterfront
-* view - Number of times house has been viewed
-* condition - How good the condition is (overall)
-* grade - overall grade given to the housing unit, based on King County grading system
-* sqft_above - square footage of house (apart from basement)
-* sqft_basement - square footage of the basement
-* yr_built - Year when house was built
-* yr_renovated - Year when house was renovated
-* zipcode - zip code in which house is located
-* lat - Latitude coordinate
-* long - Longitude coordinate
-* sqft_living15 - The square footage of interior housing living space for the nearest 15 neighbors
-* sqft_lot15 - The square footage of the land lots of the nearest 15 neighbors
+* ID - unique ID for a house
+* Date - Date day house was sold
+* Price - Price is prediction target
+* Bedrooms - Number of bedrooms
+* Bathrooms - Number of bathrooms
+* Sqft_lving - square footage of the home
+* Sqft_lot - square footage of the lot
+* Floors - Total floors (levels) in house
+* Waterfront - Whether house has a view to a waterfront
+* View - Number of times house has been viewed
+* Condition - How good the condition is (overall)
+* Grade - overall grade given to the housing unit, based on King County grading system
+* Sqft_above - square footage of house (apart from basement)
+* Sqft_basement - square footage of the basement
+* Yr_built - Year when house was built
+* Yr_renovated - Year when house was renovated
+* Zipcode - zip code in which house is located
+* Lat - Latitude coordinate
+* Long - Longitude coordinate
+* Sqft_living15 - The square footage of interior housing living space for the nearest 15 neighbors
+* Sqft_lot15 - The square footage of the land lots of the nearest 15 neighbors
 
-We first want to see how each feature is skewed and if any outliers exist.
+
+- We first want to see how each feature is skewed and if any outliers exist.
 
 <p align="center">
  <img width="2000" height="1000" src=images/boxlpltfeat.png>
+ </p>
+
+After understanding our outliers, we cleaned up our data and create new features that will we know will effect our predictions. We know that the number of number of bedrooms, bathrooms, and how much space you have in your living quarters will make or break a the selling of a house. We also know the ratio of bedroom and bathoom, the amount of square feet you have in your house and your property will diswade a buyer. This will greatly effect our the price of the house. 
+
+<p align="center">
+ <img width="2000" height="1000" src=https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fres.cloudinary.com%2Fdyd911kmh%2Fimage%2Fupload%2Ff_auto%2Cq_auto%3Abest%2Fv1537549832%2FImage2_ajaeo8.png.png>
  </p>
 
 
