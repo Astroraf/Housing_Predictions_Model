@@ -1,7 +1,7 @@
-# Housing Predictions Model
+##### Housing Predictions Model
 This project is for Phase 2 at Flatiron School. We just several independent variables from the Kings County housing market in Seattle, Washington to predict what attributes have the greatest impact on selling a house.  
 
-#### Precting Housing Prices for Seattle, Washington
+# Precting Housing Prices for Seattle, Washington
 Our company was hired to use model predictions to predict our housing prices in the Seatle, WA area. 
 In order to make the best possible predictions for the housing market of Seattle, WA, our company 
 takes in numerous amounts of paramters that are independent of the price of the house to create the 
