@@ -68,7 +68,7 @@ corrected for when we clean up our data, create new features and pick what featu
 After understanding our outliers, we cleaned up our data and create new features that will we know will effect our predictions. We know that the number of number of bedrooms, bathrooms, and how much space you have in your living quarters will make or break a the selling of a house. We also know the ratio of bedroom and bathoom, the amount of square feet you have in your house and your property will diswade a buyer. This will greatly effect our the price of the house. 
 
 <p align="center">
- <img width="200" height="100" src=https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fres.cloudinary.com%2Fdyd911kmh%2Fimage%2Fupload%2Ff_auto%2Cq_auto%3Abest%2Fv1537549832%2FImage2_ajaeo8.png>
+ <img width="2000" height="1000" src=https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fres.cloudinary.com%2Fdyd911kmh%2Fimage%2Fupload%2Ff_auto%2Cq_auto%3Abest%2Fv1537549832%2FImage2_ajaeo8.png>
  </p>
 
 
