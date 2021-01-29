@@ -30,6 +30,9 @@ we can correct for these. We first start with see how are data is distrubuted, o
 
 <p float="left">
   <img src="images/dist_data.png" width="600" />
+</p>
+
+<p float="right">
   <img src="images/theorvslin" width="600" /> 
 </p>
  
