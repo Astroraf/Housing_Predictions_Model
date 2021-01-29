@@ -26,13 +26,13 @@ We explore the data set with visualizations of how our variables effect price; i
 we can correct for these. We first start with see how are data is distrubuted, overlaying a dsitrubuted scale, and check for linearity. 
 
 <p align="center">
- <img width="1600" height="600" src=images/dist_data.png.jpg>
+ <img width="500" height="300" src=images/dist_data.png.jpg>
  </p>
  
  
  
  <p align="center">
- <img width="1600" height="600" src=images/theorvslin.png.jpg>
+ <img width="500" height="300" src=images/theorvslin.png.jpg>
  </p>
 
 We can see that are data set is not normally distrubted and this is skewed to the right. We can correct this by cleaning up our data set,
