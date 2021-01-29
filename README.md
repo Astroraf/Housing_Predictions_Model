@@ -8,7 +8,7 @@ takes in numerous amounts of paramters that are independent of the price of the 
 best model prediction to inform future buyers. 
 
 <p align="center">
- <img width="800" height="300" src=images/SeattleWA.jpg>
+ <img width="1600" height="600" src=images/SeattleWA.jpg>
  </p>
 
 # Overview:
