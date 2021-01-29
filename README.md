@@ -25,10 +25,7 @@ best model prediction to inform future buyers.
 We explore the data set with visualizations of how our variables effect price; if any extreme outliers in are data sets, 
 we can correct for these. We first start with see how are data is distrubuted, overlaying a dsitrubuted scale, and check for linearity. 
 
-![alt-text-1](images/dist_data.png "Distrubtion of Data") 
-
-
-![alt-text-2](images/theorvslin "Theortical vs Linear fit")
+![alt-text-1](images/dist_data.png "Distrubtion of Data")  ![alt-text-2](images/theorvslin.png "Theortical vs Linear fit")
 
 We can see that are data set is not normally distrubted and this is skewed to the right. We can correct this by cleaning up our data set,
 and checking for outliers. As well we can see that our data fits a more exponential curve rather than a linear fit line. This will all be 
@@ -67,9 +64,13 @@ corrected for when we clean up our data, create new features and pick what featu
 
 After understanding our outliers, we cleaned up our data and create new features that will we know will effect our predictions. We know that the number of number of bedrooms, bathrooms, and how much space you have in your living quarters will make or break a the selling of a house. We also know the ratio of bedroom and bathoom, the amount of square feet you have in your house and your property will diswade a buyer. This will greatly effect our the price of the house. 
 
+- After we created all of our features, we perform model testing to see what features are the best at predicting our housing prices and see how we perform. 
+
 <p align="center">
  <img width="1000" height="500" src=https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fres.cloudinary.com%2Fdyd911kmh%2Fimage%2Fupload%2Ff_auto%2Cq_auto%3Abest%2Fv1537549832%2FImage2_ajaeo8.png>
  </p>
+ 
+ 
 
 
  
