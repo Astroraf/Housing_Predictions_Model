@@ -28,10 +28,10 @@ best model prediction to inform future buyers.
 We explore the data set with visualizations of how our variables effect price; if any extreme outliers in are data sets, 
 we can correct for these. We first start with see how are data is distrubuted, overlaying a dsitrubuted scale, and check for linearity. 
 
-<p align="center">
- <img width="1600" height="600" src=images/SeattleWA.jpg>
- </p>
- 
+<p float="left">
+  <img src="images/dist_data.png" width="100" />
+  <img src="images/theorvslin" width="100" /> 
+</p>
  
  Distribution of our data  |  Linear fit to actual data
 :-------------------------:|:-------------------------:
