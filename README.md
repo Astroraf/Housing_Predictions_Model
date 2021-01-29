@@ -78,7 +78,15 @@ After understanding our outliers, we cleaned up our data and create new features
  <img width="1000" height="500" src=https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fres.cloudinary.com%2Fdyd911kmh%2Fimage%2Fupload%2Ff_auto%2Cq_auto%3Abest%2Fv1537549832%2FImage2_ajaeo8.png>
  </p>
  
+ # Overview:
  
+ Using the power of machine learning we are able to created the best predictions for pricing in Seattle, WA. By utlizing the python, we can clean up an discrepencies, create new features that will influence our target, this being  our price. 
 
 
+
+# Footnote:
+- Final notebook is the notebook with the cleaned up process.
+- Play notebook is the notebook where I explore the data frame, create new features, explore machine learning models, and pick the best features. 
+- Images folder has all images found in the read me.
+- Read me explains the process from a business perspective. 
  
