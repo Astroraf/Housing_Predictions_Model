@@ -1,30 +1,43 @@
 # Housing_Predictions_Model
 This project is for Phase 2 at Flatiron School. We just several independent variables from the Kings County housing market in Seattle, Washington to predict what attributes have the greatest impact on selling a house.  
 
+## Precting Housing Prices for Seattle, Washington
+Our company was hired to use model predictions to predict our housing prices in the Seatle, WA area. 
+In order to make the best possible predictions for the housing market of Seattle, WA, our company 
+takes in numerous amounts of paramters that are independent of the price of the house to create the 
+best model prediction to inform future buyers. 
 
-eSales:
-https://info.kingcounty.gov/assessor/esales/Glossary.aspx?type=r
+<p align="center">
+ <img width="1600" height="600" src=images/SeattleWA.jpg>
+ </p>
 
-Represents the construction quality of improvements. Grades run from grade 1 to 13. Generally defined as:
+# Overview:
 
-1-3 Falls short of minimum building standards. Normally cabin or inferior structure.
+- Explore the data with a train set data that involves our target
+- Create visualizations to better understand the interaction of the features we given and decide which are highly correlated
+- Clean our data set for any discrepencies
+- Create new features that we believe will influence our predictions to the highest possible degree
+- Create Polynomial features and dummy variables to see there influence on our model predictions
+- Create a split of our target and the variables that we have created to see how well our model performs
+- Perfecm model test that select the best features that influence our model predictions
+- Perform hypothesis test on several features to make sure that our features influence the price in the way we think they do
+- Grab the best features and perform it on our hold data set to see 
 
-4 Generally older, low quality construction. Does not meet code.
+# Eploration:
 
-5 Low construction costs and workmanship. Small, simple design.
+We explore the data set with visualizations of how our variables effect price; if any extreme outliers in are data sets, 
+we can correct for these. We first start with see how are data is distrubuted, overlaying a dsitrubuted scale, and check for linearity. 
 
-6 Lowest grade currently meeting building code. Low quality materials and simple designs.
+<p float="left">
+  <img src="images/dist_data.png" width="600" />
+</p>
 
-7 Average grade of construction and design. Commonly seen in plats and older sub-divisions.
+<p float="right">
+  <img src="images/theorvslin" width="600" /> 
+</p>
 
-8 Just above average in construction and design. Usually better materials in both the exterior and interior finish work.
 
-9 Better architectural design with extra interior and exterior design and quality.
 
-10 Homes of this quality generally have high quality features. Finish work is better and more design quality is seen in the floor plans. Generally have a larger square footage.
 
-11 Custom design and higher quality finish work with added amenities of solid woods, bathroom fixtures and more luxurious options.
-
-12 Custom design and excellent builders. All materials are of the highest quality and all conveniences are present.
-
-13 Generally custom designed and built. Mansion level. Large amount of highest quality cabinet work, wood trim, marble, entry ways etc
+![alt-text-1](images/dist_data.png "title-1") ![alt-text-2](images/theorvslin "title-2")
+ 
