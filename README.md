@@ -35,4 +35,9 @@ we can correct for these. We first start with see how are data is distrubuted, o
 <p float="right">
   <img src="images/theorvslin" width="600" /> 
 </p>
+
+
+
+
+![alt-text-1](images/dist_data.png "title-1") ![alt-text-2](images/theorvslin "title-2")
  
