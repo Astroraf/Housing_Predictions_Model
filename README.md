@@ -29,10 +29,7 @@ We explore the data set with visualizations of how our variables effect price; i
 we can correct for these. We first start with see how are data is distrubuted, overlaying a dsitrubuted scale, and check for linearity. 
 
 <p float="left">
-  <img src="images/dist_data.png" width="100" />
-  <img src="images/theorvslin" width="100" /> 
+  <img src="images/dist_data.png" width="400" />
+  <img src="images/theorvslin" width="400" /> 
 </p>
  
- Distribution of our data  |  Linear fit to actual data
-:-------------------------:|:-------------------------:
-![](src=images/dist_data.png)  |  ![](src=images/theorvslin.png)
