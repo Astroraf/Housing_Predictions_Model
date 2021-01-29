@@ -61,7 +61,7 @@ corrected for when we clean up our data, create new features and pick what featu
 We first want to see how each feature is skewed and if any outliers exist.
 
 <p align="center">
- <img width="1600" height="600" src=images/botpltfeat.png>
+ <img width="500" height="200" src=images/botpltfeat.png>
  </p>
 
 
