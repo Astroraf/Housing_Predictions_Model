@@ -25,7 +25,15 @@ best model prediction to inform future buyers.
 We explore the data set with visualizations of how our variables effect price; if any extreme outliers in are data sets, 
 we can correct for these. We first start with see how are data is distrubuted, overlaying a dsitrubuted scale, and check for linearity. 
 
-![alt-text-1](images/dist_data.png "Distrubtion of Data")  ![alt-text-2](images/theorvslin.png "Theortical vs Linear fit")
+<p align="center">
+ <img width="1600" height="600" src=images/dist_data.png.jpg>
+ </p>
+ 
+ 
+ 
+ <p align="center">
+ <img width="1600" height="600" src=images/theorvslin.png.jpg>
+ </p>
 
 We can see that are data set is not normally distrubted and this is skewed to the right. We can correct this by cleaning up our data set,
 and checking for outliers. As well we can see that our data fits a more exponential curve rather than a linear fit line. This will all be 
