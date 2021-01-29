@@ -28,16 +28,41 @@ best model prediction to inform future buyers.
 We explore the data set with visualizations of how our variables effect price; if any extreme outliers in are data sets, 
 we can correct for these. We first start with see how are data is distrubuted, overlaying a dsitrubuted scale, and check for linearity. 
 
-<p float="left">
-  <img src="images/dist_data.png" width="600" />
-</p>
+![alt-text-1](images/dist_data.png "Distrubtion of Data") ![alt-text-2](images/theorvslin "Theortical vs Linear fit")
 
-<p float="right">
-  <img src="images/theorvslin" width="600" /> 
-</p>
+We can see that are data set is not normally distrubted and this is skewed to the right. We can correct this by cleaning up our data set,
+and checking for outliers. As well we can see that our data fits a more exponential curve rather than a linear fit line. This will all be 
+corrected for when we clean up our data, create new features and pick what features will produce the best model.
+
+# Features
+
+* id - unique ID for a house
+* date - Date day house was sold
+* price - Price is prediction target
+* bedrooms - Number of bedrooms
+* bathrooms - Number of bathrooms
+* sqft_living - square footage of the home
+* sqft_lot - square footage of the lot
+* floors - Total floors (levels) in house
+* waterfront - Whether house has a view to a waterfront
+* view - Number of times house has been viewed
+* condition - How good the condition is (overall)
+* grade - overall grade given to the housing unit, based on King County grading system
+* sqft_above - square footage of house (apart from basement)
+* sqft_basement - square footage of the basement
+* yr_built - Year when house was built
+* yr_renovated - Year when house was renovated
+* zipcode - zip code in which house is located
+* lat - Latitude coordinate
+* long - Longitude coordinate
+* sqft_living15 - The square footage of interior housing living space for the nearest 15 neighbors
+* sqft_lot15 - The square footage of the land lots of the nearest 15 neighbors
+
+We first want to see how each feature is skewed and if any outliers exist.
+
+<p align="center">
+ <img width="1600" height="600" src=images/botpltfeat.png>
+ </p>
 
 
-
-
-![alt-text-1](images/dist_data.png "title-1") ![alt-text-2](images/theorvslin "title-2")
  
